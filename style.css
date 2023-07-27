@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    color: orchid;
+
+    justify-content: center;
+    display: flex;
+    padding-top: 160px;
+    padding-right: 40px;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-color: #f8e7af;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: #f8e7af;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;;
+}
+
+#temp label{
+    font-size: 30px;
+}
+
+#ctemp{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#diff_temp{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+[type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border:none;
+    background-color: black;
+    color: whitesmoke;
+}
+span {
+    justify-content: center;
+    display: flex;
+    left: 50%;
+    right: 50%;
+    height: 35px;
+    position: absolute;
+    transform: translate(-70% ,-30%);
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border-style: dashed;
+    border-width: thin;
+    border-color: purple;
+    background-color: orchid;
+    color: black;
+}
